@@ -1,6 +1,6 @@
 # 📚 Library Management System
 
-Welcome to the **Library Management System**, a **GUI-based** application built with **Python, PostgreSQL, and Streamlit**. This system allows users to **register, borrow, and return books**, while the admin can efficiently **manage books and user records**. 🚀
+Welcome to the **Library Management System**, a **GUI-based** application built with **Python, PostgreSQL, and tkinter**. This system allows users to **register, borrow, and return books**, while the admin can efficiently **manage books and user records**. 🚀
 
 ---
 
@@ -22,7 +22,7 @@ Welcome to the **Library Management System**, a **GUI-based** application built 
 ---
 
 ## 🛠️ Tech Stack
-- 🎨 **Frontend**: Streamlit (GUI-based web app)  
+- 🎨 **Frontend**: tkinter (GUI-based web app)  
 - 🖥️ **Backend**: Python with PostgreSQL using `psycopg2`  
 - 🗄️ **Database**: PostgreSQL  
 
