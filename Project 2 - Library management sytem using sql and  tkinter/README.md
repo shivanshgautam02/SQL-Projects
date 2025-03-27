@@ -1,6 +1,11 @@
 # 📚 Library Management System
 
-Welcome to the **Library Management System**, a **GUI-based** application built with **Python, PostgreSQL, and tkinter**. This system allows users to **register, borrow, and return books**, while the admin can efficiently **manage books and user records**. 🚀
+Welcome to the **Library Management System**, a **GUI-based** application built with **Python, PostgreSQL, and Tkinter**. This system allows users to **register, borrow, and return books**, while the admin can efficiently **manage books and user records**. 🚀
+
+This project is part of the **SQL Projects** repository. You can find it under:
+📂 **[Project 2 - Library Management System using SQL and Tkinter](https://github.com/shivanshgautam02/SQL-Projects/tree/main/Project%202%20-%20Library%20management%20sytem%20using%20sql%20and%20%20tkinter)**
+
+🔗 **Main Repository:** [SQL Projects](https://github.com/shivanshgautam02/SQL-Projects)
 
 ---
 
@@ -22,7 +27,7 @@ Welcome to the **Library Management System**, a **GUI-based** application built 
 ---
 
 ## 🛠️ Tech Stack
-- 🎨 **Frontend**: tkinter (GUI-based web app)  
+- 🎨 **Frontend**: Tkinter (GUI-based desktop application)  
 - 🖥️ **Backend**: Python with PostgreSQL using `psycopg2`  
 - 🗄️ **Database**: PostgreSQL  
 
@@ -33,7 +38,6 @@ Welcome to the **Library Management System**, a **GUI-based** application built 
 Library-Management-System/
 │-- database/
 │   │-- db_connection.py        # Handles PostgreSQL database connection
-|   │-- setup_database.sql           # SQL script to set up database tables
 │-- models/
 │   │-- book.py                 # Book-related operations
 │   │-- user.py                 # User authentication and management
@@ -42,6 +46,7 @@ Library-Management-System/
 │   │-- user_dashboard.py       # User dashboard UI
 │   │-- user_login.py           # User login UI
 │-- main.py                      # Main entry point of the system
+│-- setup_database.sql           # SQL script to set up database tables
 │-- requirements.txt             # Required Python dependencies
 │-- README.md                    # Project documentation
 ```
@@ -52,8 +57,8 @@ Library-Management-System/
 
 ### **Step 1: Clone the Repository**
 ```sh
-git clone https://github.com/your-username/Library-Management-System.git
-cd Library-Management-System
+git clone https://github.com/shivanshgautam02/SQL-Projects.git
+cd "SQL-Projects/Project 2 - Library management sytem using sql and  tkinter"
 ```
 
 ### **Step 2: Install Dependencies**
@@ -104,6 +109,5 @@ Use the following credentials to log in as an **admin**:
 This project is open-source under the **MIT License**. Feel free to contribute and improve the system!  
 
 ---
-
 
 
